@@ -10,6 +10,9 @@ Tools used: Jira, Zephyr Squad.
 
 The below story **(daca aveti mai multe scrieti stories**) was created in Jira and describes the functional specifications of the "**nume_modul**" module, for which the final project is performed upon.
 
+![Descriere a imaginii](./poza1.jpg)
+
+
 **inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
 
 Here you can find the release that was created for this project:
