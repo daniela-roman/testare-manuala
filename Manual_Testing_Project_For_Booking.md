@@ -125,7 +125,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>1.2 Test Monitoring and Control<h3>
+<h3>1.2 Test Monitoring and Control</h3>
 
 Etapa de monitorizare și control a fost realizată pentru a asigura că procesul de testare se desfășoară conform planului stabilit și că toate activitățile de testare sunt urmărite și gestionate eficient. Aceasta etapă este esențială pentru a identifica devierile față de planul inițial, pentru a evalua progresul testării și pentru a lua decizii informate referitoare la eventualele ajustări necesare. Monitorizarea și controlul contribuie la asigurarea calității produsului final și la identificarea timpurie a problemelor care pot afecta lansarea acestuia.
 
