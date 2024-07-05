@@ -176,7 +176,7 @@ The following elements are needed to be ready before the test execution phase be
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: ![Test Cycles](img/Test Cycles.png)
+Test cases are executed on the created test Cycle summary: ![Test Cycles](img/test_cycles.png)
 
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here.
