@@ -12,17 +12,17 @@ The below stories was created in Jira and describes the functional specification
 
 
 
-![Story 1](./Functionalitate cautare bookinf story1.png)
+![Story 1](img/story1.png)
 
-![Story 2](./Rezervare story2.png)
+![Story 2](img/story2.png)
 
 
 
 Here you can find the release that was created for this project:
 
-![Timeline](./timeline.png)
+![Timeline](img/timeline.png)
 
-![Release](./list.png)
+![Release](img/list.png)
 
 
 <h2>Testing process</h2>
@@ -33,7 +33,7 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the Booking application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Test Plan for Booking](Test Plan for Booking.docx)
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Test Plan for Booking](doc/Test Plan for Booking.docx)
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
@@ -156,13 +156,13 @@ The following test conditions were found: <br>
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here [Story 1: Funcționalitatea de Căutare](KAN-5.doc)
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here [Story 1: Funcționalitatea de Căutare](doc/KAN-5.doc)
 
-[Story 2: Funcționalitatea de Rezervare](KAN-6.doc)
+[Story 2: Funcționalitatea de Rezervare](doc/KAN-6.doc)
 
-[Bug1: Câmpul de căutare nu acceptă caractere speciale](KAN-7.doc)
+[Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN-7.doc)
 
-[Bug2: Sistemul nu trimite email de confirmare după rezervare](KAN-8.doc)
+[Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN-8.doc)
 
 
 <h3>1.5 Test Implementation</h3>
@@ -178,16 +178,16 @@ The following elements are needed to be ready before the test execution phase be
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: ![Test Cycles](./Test Cycles.png)
+Test cases are executed on the created test Cycle summary: ![Test Cycles](img/Test Cycles.png)
 
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here.
 
 The following is a summary of the bugs that have been found
 
-[Bug1: Câmpul de căutare nu acceptă caractere speciale](KAN-7.doc)
+[Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN-7.doc)
 
-[Bug2: Sistemul nu trimite email de confirmare după rezervare](KAN-8.doc)
+[Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN-8.doc)
 
 - Bug 1: Sistemul nu procesează text cu caractere speciale
   - Prioritate: Medie
@@ -203,7 +203,7 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 1.7 Test Completion
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: ![traceability matrix](./traceability matrix.png)
+The traceability matrix was generated and can be found here: ![traceability matrix](img/traceability matrix.png)
 
 Test execution chart was generated and can be found below. 
 
