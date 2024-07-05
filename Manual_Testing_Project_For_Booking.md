@@ -157,13 +157,10 @@ The following test conditions were found: <br>
 <h3>1.4 Test Design</h3>
 
 Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here 
-[Story 1: Funcționalitatea de Căutare](doc/KAN-5.doc)
-
-[Story 2: Funcționalitatea de Rezervare](doc/KAN-6.doc)
-
-[Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN-7.doc)
-
-[Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN-8.doc)
+- [Story 1: Funcționalitatea de Căutare](doc/KAN-5.doc)
+- [Story 2: Funcționalitatea de Rezervare](doc/KAN-6.doc)
+- [Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN-7.doc)
+- [Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN-8.doc)
 
 
 <h3>1.5 Test Implementation</h3>
