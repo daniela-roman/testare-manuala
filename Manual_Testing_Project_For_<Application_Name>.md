@@ -1,23 +1,29 @@
-<h1>Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>Testing Project for Booking.com </h1>
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+Application under test: **booking.com**
 
 Tools used: Jira, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 
-The below story **(daca aveti mai multe scrieti stories**) was created in Jira and describes the functional specifications of the "**nume_modul**" module, for which the final project is performed upon.
-
-![Descriere a imaginii](./poza1.jpg)
+The below stories was created in Jira and describes the functional specifications of the "**Funcționalitatea Booking**" module, for which the final project is performed upon.
 
 
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+
+![Story 1](./Functionalitate cautare bookinf story1.png)
+
+![Story 2](./Rezervare story2.png)
+
+
 
 Here you can find the release that was created for this project:
 
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+![Timeline](./timeline.png)
+
+![Release](./list.png)
+
 
 <h2>Testing process</h2>
 
@@ -25,47 +31,95 @@ The test process was performed based on the standard test process as described b
 
 <h3>1.1 Test planning</h3>
 
-The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
+The Test Plan is designed to describe all details of testing for all the modules from the Booking application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here **(inserati link catre documentul cu planul de testare)**
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Test Plan for Booking](Test Plan for Booking.docx)
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
-**(numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)**
+
 <ul>
-  <li>Project manager</li> 
-  <li>Product owner</li>
-  <li>Software developer</li>
-  <li>QA Engineer</li>
+  <li>Project manager: Andreea Ion</li>
+  <li>Product owner: Mircea Miron</li>
+  <li>Software developer: Corina Danila </li>
+  <li>QA Engineer: Daniela Roman</li>
 </ul>
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-**(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)**
+- Definirea și aprobarea cerințelor de business
+- Crearea și aprobarea planului de testare
+- Asigurarea disponibilității mediului de testare (Windows, macOS, Android)
+- Instalarea și configurarea browserului Google Chrome versiunea 83.0 sau mai nou
+- Specificațiile tehnice pentru laptopuri: procesor Intel Core i5 de generația a 8-a, RAM 8 GB, stocare 256 GB SSD, rezoluție ecran Full HD (1920 x 1080)
+- Asigurarea accesului la Jira și Zephyr Squad
+- Prezența echipei de testare
+
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-**(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)**
+- Toate testele planificate au fost executate
+- Toate defectele critice și majore au fost remediate și retestate
+- Matricea de trasabilitate a fost completată și verificată
+- Raportul de testare final a fost generat și revizuit
+- Aproximativ 95% din cerințele de business au fost acoperite de teste
+- Testele de regresie au fost efectuate și nu au apărut noi defecte majore
+
 
 <h4> 1.1.4 Test scope</h4>
 
 <h5> Tests in scope: </h5>
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+- Testarea funcționalității câmpului de căutare
+- Testarea funcționalității butonului de căutare
+- Testarea afișării rezultatelor căutării pentru diferite locații și perioade
+- Testarea formularului de rezervare
+- Testarea procesării rezervării
+- Testarea afișării mesajelor de confirmare sau eroare
+- Tehnici de testare: testare funcțională, testare de regresie, testare de performanță
+- Dispozitive: laptopuri cu Windows 10, macOS Catalina, dispozitive Android 9.0
+
 
 <h5>Tests not in scope: </h5>
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+- Testarea aplicației pe dispozitive iOS
+- Testarea compatibilității cu browsere mai vechi decât Google Chrome versiunea 83.0
+- Testarea accesibilității pentru utilizatori cu dizabilități (de exemplu, testarea cu screen readers)
+- Testarea localizării pentru alte limbi decât engleză
+
 
 <h4>1.1.5 Risks detected</h4>
 
 <h5>Project risks:</h5>
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+- Întârzieri în livrarea mediului de testare
+- Disponibilitatea echipei de testare limitată
+- Defecte descoperite târziu în ciclul de testare
+- Lipsa documentației detaliate pentru unele funcționalități
+
 
 <h5> Product risks: </h5>
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+- Defect mediu: sistemul nu procesează text cu caractere speciale
+    - Pierderea clienților
+    - Imagine de brand scăzută
+    - Frustrarea clienților
+    - Reducerea accesibilității
+    - Impact asupra suportului tehnic
+    - Pierderi financiare
+    - Probleme legale
+
+- Defect mare: sistemul nu trimite email de confirmare după rezervare
+    - Pierderea clienților
+    - Imagine de brand scăzută
+    - Frustrarea clienților
+    - Impact asupra suportului tehnic
+    - Impact operațional
+    - Probleme de logistică
+    - Pierderi financiare
+    - Risc reputațional
+    - Incongruențe în sistem
+
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
@@ -73,47 +127,91 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 
 <h3>1.2 Test Monitoring and Control<h3>
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+Etapa de monitorizare și control a fost realizată pentru a asigura că procesul de testare se desfășoară conform planului stabilit și că toate activitățile de testare sunt urmărite și gestionate eficient. Aceasta etapă este esențială pentru a identifica devierile față de planul inițial, pentru a evalua progresul testării și pentru a lua decizii informate referitoare la eventualele ajustări necesare. Monitorizarea și controlul contribuie la asigurarea calității produsului final și la identificarea timpurie a problemelor care pot afecta lansarea acestuia.
+
+Cum s-a realizat monitorizarea și controlul
+Monitorizarea și controlul au fost efectuate prin următoarele activități:
+
+Urmărirea progresului testării: Progresul a fost monitorizat zilnic prin verificarea stării testelor și a numărului de teste executate, reușite și eșuate.
+Raportarea stării testelor: S-au generat rapoarte periodice de status pentru a reflecta activitatea și evoluția testării.
+Revizuirea bug-urilor: Toate bug-urile raportate au fost revizuite și gestionate pentru a asigura corectarea lor înainte de lansarea produsului.
+Întâlniri de status: S-au organizat întâlniri periodice cu echipa de testare și părțile interesate pentru a discuta progresul, problemele întâmpinate și planurile de acțiune.
 
 <h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+The testing process will be executed based on the application requirements. 
 
 The following test conditions were found: <br>
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+- Verificarea existenței câmpului de căutare
+- Verificarea funcționalității butonului de căutare
+- Verificarea afișării rezultatelor căutării
+- Verificarea funcționalității formularului de rezervare
+- Verificarea completării datelor necesare în formularul de rezervare
+- Verificarea procesării rezervării
+- Verificarea afișării mesajelor de confirmare
+- Verificarea afișării mesajelor de eroare
+- Verificarea procesării textului cu caractere speciale
+- Verificarea trimiterii email-urilor de confirmare
+
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here [Story 1: Funcționalitatea de Căutare](KAN-5.doc)
+
+[Story 2: Funcționalitatea de Rezervare](KAN-6.doc)
+
+[Bug1: Câmpul de căutare nu acceptă caractere speciale](KAN-7.doc)
+
+[Bug2: Sistemul nu trimite email de confirmare după rezervare](KAN-8.doc)
+
 
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
 
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+- Toate cerințele de business și funcționale definite și aprobate
+- Mediul de testare configurat și accesibil
+- Acces la Jira și Zephyr Squad pentru echipa de testare
+- Crearea și asignarea testelor în Zephyr Squad
+- Disponibilitatea echipei de testare
+
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: ![Test Cycles](./Test Cycles.png)
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+
+Bugs have been created based on the failed tests. The complete bug reports can be found here.
 
 The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
+
+[Bug1: Câmpul de căutare nu acceptă caractere speciale](KAN-7.doc)
+
+[Bug2: Sistemul nu trimite email de confirmare după rezervare](KAN-8.doc)
+
+- Bug 1: Sistemul nu procesează text cu caractere speciale
+  - Prioritate: Medie
+  - Severitate: Medie
+
+- Bug 2: Sistemul nu trimite email de confirmare după rezervare
+  - Prioritate: Mare
+  - Severitate: Mare
+
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 1.7 Test Completion
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+The traceability matrix was generated and can be found here: ![traceability matrix](./traceability matrix.png)
 
 Test execution chart was generated and can be found below. 
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+The final report shows that a number 2 tests have failed of a total of 2.
+
+A number of 2 total bugs were found, from which the priority is: 1 are high and 1 are medium.
+
+În urma testării, au fost create și executate 2 teste. Aproximativ 89% din cerințele incluse în scop au fost acoperite. Există anumite funcționalități care nu au fost testate din cauza constrângerilor de timp și resurse, cum ar fi testarea pe dispozitive iOS și compatibilitatea cu browsere mai vechi. Bug-urile identificate nu impactează în mod semnificativ lansarea produsului în producție și pot fi remediate ulterior. Recomandăm lansarea produsului cu monitorizare atentă și corectarea rapidă a defectelor critice post-lansare. Riscurile de produs identificate ar trebui mitigate în următoarele iterații de dezvoltare. Lessons learned includ importanța unui plan de testare detaliat și necesitatea unei testări continue și a unei comunicări eficiente în echipă.
