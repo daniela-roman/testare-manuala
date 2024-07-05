@@ -156,7 +156,8 @@ The following test conditions were found: <br>
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here [Story 1: Funcționalitatea de Căutare](doc/KAN-5.doc)
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here 
+[Story 1: Funcționalitatea de Căutare](doc/KAN-5.doc)
 
 [Story 2: Funcționalitatea de Rezervare](doc/KAN-6.doc)
 
