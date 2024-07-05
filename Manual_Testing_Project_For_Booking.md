@@ -33,7 +33,7 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the Booking application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Test Plan for Booking](doc/Test Plan for Booking.docx)
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Test Plan for Booking](doc/test_plan_booking.docx)
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
@@ -157,10 +157,10 @@ The following test conditions were found: <br>
 <h3>1.4 Test Design</h3>
 
 Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here 
-- [Story 1: Funcționalitatea de Căutare](doc/KAN-5.doc)
-- [Story 2: Funcționalitatea de Rezervare](doc/KAN-6.doc)
-- [Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN-7.doc)
-- [Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN-8.doc)
+- [Story 1: Funcționalitatea de Căutare](doc/KAN_5.doc)
+- [Story 2: Funcționalitatea de Rezervare](doc/KAN_6.doc)
+- [Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN_7.doc)
+- [Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN_8.doc)
 
 
 <h3>1.5 Test Implementation</h3>
@@ -183,9 +183,9 @@ Bugs have been created based on the failed tests. The complete bug reports can b
 
 The following is a summary of the bugs that have been found
 
-[Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN-7.doc)
+[Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN_7.doc)
 
-[Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN-8.doc)
+[Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN_8.doc)
 
 - Bug 1: Sistemul nu procesează text cu caractere speciale
   - Prioritate: Medie
@@ -201,7 +201,7 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 1.7 Test Completion
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: ![traceability matrix](img/traceability matrix.png)
+The traceability matrix was generated and can be found here: ![traceability matrix](img/traceability_matrix.png)
 
 Test execution chart was generated and can be found below. 
 
