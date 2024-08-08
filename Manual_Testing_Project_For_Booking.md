@@ -1,6 +1,6 @@
 <h1>Testing Project for Booking.com </h1>
 
-The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
+The scope of the final project for ITF Manual Testing Course is to use all gained knowledge through the course and apply them in practice, using a live application
 
 Application under test: **booking.com**
 
@@ -22,7 +22,6 @@ Here you can find the release that was created for this project:
 
 ![Timeline](img/timeline.png)
 
-![Release](img/list.png)
 
 
 <h2>Testing process</h2>
@@ -33,7 +32,7 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the Booking application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Test Plan for Booking](doc/test_plan_booking.docx)
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Test Plan for Booking](doc/test_plan_booking.pdf)
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
@@ -47,169 +46,210 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-- Definirea și aprobarea cerințelor de business
-- Crearea și aprobarea planului de testare
-- Asigurarea disponibilității mediului de testare (Windows, macOS, Android)
-- Instalarea și configurarea browserului Google Chrome versiunea 83.0 sau mai nou
-- Specificațiile tehnice pentru laptopuri: procesor Intel Core i5 de generația a 8-a, RAM 8 GB, stocare 256 GB SSD, rezoluție ecran Full HD (1920 x 1080)
-- Asigurarea accesului la Jira și Zephyr Squad
-- Prezența echipei de testare
+- Definition and approval of business requirements
+- Creation and approval of the test plan
+- Ensuring the availability of the testing environment (Windows, macOS, Android)
+- Installation and configuration of Google Chrome browser version 83.0 or newer
+- Technical specifications for laptops: 8th generation Intel Core i5 processor, 8 GB RAM, 256 GB SSD storage, Full HD screen resolution (1920 x 1080)
+- Ensuring access to Jira and Zephyr Squad
+- Presence of the testing team
 
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-- Toate testele planificate au fost executate
-- Toate defectele critice și majore au fost remediate și retestate
-- Matricea de trasabilitate a fost completată și verificată
-- Raportul de testare final a fost generat și revizuit
-- Aproximativ 95% din cerințele de business au fost acoperite de teste
-- Testele de regresie au fost efectuate și nu au apărut noi defecte majore
+- All planned tests have been executed
+- All critical and major defects have been fixed and retested
+- The traceability matrix has been completed and verified
+- The final test report has been generated and reviewed
+- Approximately 95% of the business requirements have been covered by tests
+- Regression tests have been performed, and no new major defects have been identified
 
 
 <h4> 1.1.4 Test scope</h4>
 
 <h5> Tests in scope: </h5>
 
-- Testarea funcționalității câmpului de căutare
-- Testarea funcționalității butonului de căutare
-- Testarea afișării rezultatelor căutării pentru diferite locații și perioade
-- Testarea formularului de rezervare
-- Testarea procesării rezervării
-- Testarea afișării mesajelor de confirmare sau eroare
-- Tehnici de testare: testare funcțională, testare de regresie, testare de performanță
-- Dispozitive: laptopuri cu Windows 10, macOS Catalina, dispozitive Android 9.0
-
+- Testing the search field functionality
+- Testing the search button functionality
+- Testing the display of search results for different locations and dates
+- Testing the booking form functionality
+- Testing the booking processing
+- Testing the display of confirmation or error messages
+- Testing techniques: functional testing, regression testing, performance testing
+- Devices: laptops with Windows 10, macOS Catalina, Android 9.0 devices
 
 <h5>Tests not in scope: </h5>
 
-- Testarea aplicației pe dispozitive iOS
-- Testarea compatibilității cu browsere mai vechi decât Google Chrome versiunea 83.0
-- Testarea accesibilității pentru utilizatori cu dizabilități (de exemplu, testarea cu screen readers)
-- Testarea localizării pentru alte limbi decât engleză
-
+- Testing the application on iOS devices
+- Testing compatibility with browsers older than Google Chrome version 83.0
+- Testing accessibility for users with disabilities (e.g., testing with screen readers)
+- Testing localization for languages other than English
 
 <h4>1.1.5 Risks detected</h4>
 
 <h5>Project risks:</h5>
 
-- Întârzieri în livrarea mediului de testare
-- Disponibilitatea echipei de testare limitată
-- Defecte descoperite târziu în ciclul de testare
-- Lipsa documentației detaliate pentru unele funcționalități
+Project Risks:
+ Testing Environment Delivery Delays
+- Consequence:
+    - Project Delays: Delay in the delivery of the testing environment can push back the entire testing schedule, causing a domino effect that delays subsequent phases of the project.
+    - Increased Costs: Extended project timelines can lead to increased labor and operational costs.
+    - Development Pressure: Development teams might face pressure to accelerate their work to make up for lost time, which can lead to rushed and lower-quality outputs.
+
+ Limited Availability of the Testing Team
+- Consequence:
+  - Incomplete Testing: Limited availability may result in not all test cases being executed, increasing the risk of undetected defects.
+  -  Rushed Testing: The testing that does occur may be rushed, leading to inadequate test coverage.
+  - Overlooked Defects: Critical defects may go unnoticed, leading to potential issues post-release.
+  
+
+Defects Discovered Late in the Testing Cycle
+
+- Consequence:
+    - High Fix Costs: Fixing defects late in the cycle is typically more costly in terms of both time and resources compared to addressing them earlier.
+    - Release Delays: Late discoveries can push back release dates, affecting go-to-market strategies.
+    - Reduced Quality: The overall quality of the product may suffer if fixes are rushed to meet deadlines.
 
 
-<h5> Product risks: </h5>
-
-- Defect mediu: sistemul nu procesează text cu caractere speciale
-    - Pierderea clienților
-    - Imagine de brand scăzută
-    - Frustrarea clienților
-    - Reducerea accesibilității
-    - Impact asupra suportului tehnic
-    - Pierderi financiare
-    - Probleme legale
-
-- Defect mare: sistemul nu trimite email de confirmare după rezervare
-    - Pierderea clienților
-    - Imagine de brand scăzută
-    - Frustrarea clienților
-    - Impact asupra suportului tehnic
-    - Impact operațional
-    - Probleme de logistică
-    - Pierderi financiare
-    - Risc reputațional
-    - Incongruențe în sistem
+Lack of Detailed Documentation for Some Functionalities
+- Consequence:
+    - Implementation Errors: Lack of clear documentation can lead to misunderstandings about functionality requirements, resulting in implementation errors.
+    - Onboarding Challenges: New team members may find it difficult to get up to speed, reducing productivity.
+    - Increased Defects: Without detailed documentation, the likelihood of defects increases due to unclear or misunderstood requirements.
 
 
+
+Product Risks:
+- Medium Defect: System Does Not Process Text with Special Characters 
+
+ - Consequence:
+    - Loss of Customers: Users who input special characters and experience errors may abandon the platform.
+    - Decreased Brand Image: Frequent issues with character processing can damage the platform's reputation.
+    - Customer Frustration: Users encountering issues may become frustrated, leading to negative reviews and word-of-mouth.
+    - Reduced Accessibility: Users who rely on special characters for their names, addresses, or other inputs will find the platform unusable.
+    - Impact on Technical Support: Increased volume of support tickets related to this issue can overwhelm the support team.
+    - Financial Losses: Lost customers and additional support costs can negatively impact revenue.
+    - Legal Issues: Failure to process characters correctly could lead to non-compliance with localization requirements.
+    
+
+- Major Defect: System Does Not Send Confirmation Email After Booking
+
+  - Consequence:
+    - Loss of Customers: Lack of confirmation may lead users to believe their booking was unsuccessful, causing them to seek alternatives.
+    - Decreased Brand Image: This issue can significantly harm the platform’s reliability perception.
+    - Customer Frustration: Users may become frustrated due to uncertainty about their bookings, leading to complaints and negative feedback.
+    - Impact on Technical Support: The support team will face an increased number of inquiries regarding booking confirmations.
+    - Operational Impact: Internal operations may be affected due to the need to manually confirm bookings or handle user complaints.
+    - Logistical Issues: Booking inconsistencies can cause overbooking or other logistical problems.
+    - Financial Losses: Financial impact due to lost bookings and the resources required to manage the issue.
+    - Reputational Risk: Repeated issues with booking confirmations can cause long-term damage to the platform’s reputation.
+    - System Inconsistencies: Lack of confirmation emails can lead to data mismatches between user records and the system’s booking records.
+  
+  
 <h4>1.1.6 Evaluating entry criteria</h4>
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
 <h3>1.2 Test Monitoring and Control</h3>
 
-Etapa de monitorizare și control a fost realizată pentru a asigura că procesul de testare se desfășoară conform planului stabilit și că toate activitățile de testare sunt urmărite și gestionate eficient. Aceasta etapă este esențială pentru a identifica devierile față de planul inițial, pentru a evalua progresul testării și pentru a lua decizii informate referitoare la eventualele ajustări necesare. Monitorizarea și controlul contribuie la asigurarea calității produsului final și la identificarea timpurie a problemelor care pot afecta lansarea acestuia.
+The monitoring and control phase was conducted to ensure that the testing process proceeded according to the established plan and that all testing activities were tracked and managed efficiently. This phase is essential for identifying deviations from the initial plan, evaluating testing progress, and making informed decisions regarding any necessary adjustments. Monitoring and control contribute to ensuring the quality of the final product and early identification of issues that could impact its release.
 
-Cum s-a realizat monitorizarea și controlul
-Monitorizarea și controlul au fost efectuate prin următoarele activități:
+How Monitoring and Control Were Carried Out
+Monitoring and control were conducted through the following activities:
 
-Urmărirea progresului testării: Progresul a fost monitorizat zilnic prin verificarea stării testelor și a numărului de teste executate, reușite și eșuate.
-Raportarea stării testelor: S-au generat rapoarte periodice de status pentru a reflecta activitatea și evoluția testării.
-Revizuirea bug-urilor: Toate bug-urile raportate au fost revizuite și gestionate pentru a asigura corectarea lor înainte de lansarea produsului.
-Întâlniri de status: S-au organizat întâlniri periodice cu echipa de testare și părțile interesate pentru a discuta progresul, problemele întâmpinate și planurile de acțiune.
-
+Tracking Testing Progress: Progress was monitored daily by checking the status of tests and the number of tests executed, passed, and failed.
+Test Status Reporting: Regular status reports were generated to reflect testing activity and progress.
+Bug Review: All reported bugs were reviewed and managed to ensure their resolution before the product release.
+Status Meetings: Regular meetings were held with the testing team and stakeholders to discuss progress, encountered issues, and action plans.
 <h3> 1.3 Test Analysis </h3>
 The testing process will be executed based on the application requirements. 
 
 The following test conditions were found: <br>
 
-- Verificarea existenței câmpului de căutare
-- Verificarea funcționalității butonului de căutare
-- Verificarea afișării rezultatelor căutării
-- Verificarea funcționalității formularului de rezervare
-- Verificarea completării datelor necesare în formularul de rezervare
-- Verificarea procesării rezervării
-- Verificarea afișării mesajelor de confirmare
-- Verificarea afișării mesajelor de eroare
-- Verificarea procesării textului cu caractere speciale
-- Verificarea trimiterii email-urilor de confirmare
-
+- Verifying the existence of the search field
+- Verifying the functionality of the search button
+- Verifying the display of search results
+- Verifying the functionality of the booking form
+- Verifying the completion of required fields in the booking form
+- Verifying the processing of the booking
+- Verifying the display of confirmation messages
+- Verifying the display of error messages
+- Verifying the processing of text with special characters
+- Verifying the sending of confirmation emails
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here 
-- [Story 1: Funcționalitatea de Căutare](doc/KAN_5.doc)
-- [Story 2: Funcționalitatea de Rezervare](doc/KAN_6.doc)
-- [Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN_7.doc)
-- [Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN_8.doc)
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. 
+The test cases can be accessed here:
+- [Story 1: Funcționalitatea de Căutare](doc/KAN_5.doc.pdf)
+- [Story 2: Funcționalitatea de Rezervare](doc/KAN_6.doc.pdf)
+- [Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN_7.doc.pdf)
+- [Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN_8.doc.pdf)
 
 
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
 
-- Toate cerințele de business și funcționale definite și aprobate
-- Mediul de testare configurat și accesibil
-- Acces la Jira și Zephyr Squad pentru echipa de testare
-- Crearea și asignarea testelor în Zephyr Squad
-- Disponibilitatea echipei de testare
+- All defined and approved business and functional requirements
+- Testing environment configured and accessible
+- Access to Jira and Zephyr Squad for the testing team
+- Creation and assignment of tests in Zephyr Squad
+- Availability of the testing team
 
 
 <h3>1.6. Test Execution </h3>
 
 Test cases are executed on the created test Cycle summary: ![Test Cycles](img/test_cycles.png)
 
+Test Execution steps
+![inregistrare_site](img/test1.png)
+![anulare_rezervare](img/test2.png)
+![preferinte_utilizator](img/test3.png)
+![search_testing](img/test4.png)
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here.
+
+
+
+Bugs have been created based on the failed tests. The complete bug reports can be found below.
 
 The following is a summary of the bugs that have been found
 
-[Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN_7.doc)
+[Bug1: Câmpul de căutare nu acceptă caractere speciale](doc/KAN_7.doc.pdf)
 
-[Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN_8.doc)
+[Bug2: Sistemul nu trimite email de confirmare după rezervare](doc/KAN_8.doc.pdf)
 
-- Bug 1: Sistemul nu procesează text cu caractere speciale
-  - Prioritate: Medie
-  - Severitate: Medie
+- Bug 1: The system does not process text with special characters
+  - Priority: Medium
+  - Severity: Medium
 
-- Bug 2: Sistemul nu trimite email de confirmare după rezervare
-  - Prioritate: Mare
-  - Severitate: Mare
+- Bug 2: The system does not send a confirmation email after booking
+  - Priority: High
+  - Severity: High
 
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 1.7 Test Completion
-As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+Since the exit criteria have been met and satisfied as outlined in the relevant section, the Testing team recommends that this feature is ready to be deployed.
 
 The traceability matrix was generated and can be found here: ![traceability matrix](img/traceability_matrix.png)
 
-Test execution chart was generated and can be found below. 
+
+Test execution charts
+- Test execution charts offer visual representations of the testing progress and results within a project. These charts include information on the number of test cases executed, passed, failed, and any tests currently in progress. They provide stakeholders with a quick and intuitive overview of the testing status, allowing them to assess the overall health of the project at a glance. Test execution charts help in identifying trends, tracking testing efficiency, and making data-driven decisions. The visual nature of these charts enhances communication and understanding among team members, enabling more effective collaboration and timely response to testing challenges.
+
+
+Test execution chart was generated and can be found below.
+![Raport executie](img/raport_executie.png)
 
 
 
 
-The final report shows that a number 2 tests have failed of a total of 2.
+
+The final report shows that a number 2 tests have failed of a total of 10.
+This means that 80% of the tests passed, while 20% of the tests failed.
 
 A number of 2 total bugs were found, from which the priority is: 1 are high and 1 are medium.
 
-În urma testării, au fost create și executate 2 teste. Aproximativ 89% din cerințele incluse în scop au fost acoperite. Există anumite funcționalități care nu au fost testate din cauza constrângerilor de timp și resurse, cum ar fi testarea pe dispozitive iOS și compatibilitatea cu browsere mai vechi. Bug-urile identificate nu impactează în mod semnificativ lansarea produsului în producție și pot fi remediate ulterior. Recomandăm lansarea produsului cu monitorizare atentă și corectarea rapidă a defectelor critice post-lansare. Riscurile de produs identificate ar trebui mitigate în următoarele iterații de dezvoltare. Lessons learned includ importanța unui plan de testare detaliat și necesitatea unei testări continue și a unei comunicări eficiente în echipă.
+Following testing, 10 tests were created and executed. Approximately 80% of the requirements included in the scope were covered. There are certain functionalities that were not tested due to time and resource constraints, such as testing on iOS devices and compatibility with older browsers. The identified bugs do not significantly impact the product's launch in production and can be addressed later. We recommend proceeding with the product launch with careful monitoring and swift correction of critical post-launch defects. The identified product risks should be mitigated in the following development iterations. Lessons learned include the importance of a detailed testing plan, the need for continuous testing, and effective team communication.
