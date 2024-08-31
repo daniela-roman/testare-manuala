@@ -48,11 +48,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 - Definition and approval of business requirements
 - Creation and approval of the test plan
-- Ensuring the availability of the testing environment (Windows, macOS, Android)
-- Installation and configuration of Google Chrome browser version 83.0 or newer
-- Technical specifications for laptops: 8th generation Intel Core i5 processor, 8 GB RAM, 256 GB SSD storage, Full HD screen resolution (1920 x 1080)
-- Ensuring access to Jira and Zephyr Squad
-- Presence of the testing team
+
 
 
 <h4> 1.1.3 Exit criteria defined </h4>
