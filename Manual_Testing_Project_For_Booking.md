@@ -50,7 +50,6 @@ The plan identifies the items to be tested, the features to be tested, the types
 - Creation and approval of the test plan
 
 
-
 <h4> 1.1.3 Exit criteria defined </h4>
 
 - All planned tests have been executed
